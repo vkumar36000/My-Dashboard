@@ -66,7 +66,7 @@ export function ArticlesPage() {
     {
       id: "action",
       header: "Action",
-      cell: ({ row }) => (
+      cell: ({}) => (
         <Button size="sm" variant="outline">
           View
         </Button>
@@ -75,7 +75,7 @@ export function ArticlesPage() {
     {
       id: "publish",
       header: "Publish",
-      cell: ({ row }) => (
+      cell: () => (
         <IconBrandWordpress className="text-blue-500" />
       ),
     },
